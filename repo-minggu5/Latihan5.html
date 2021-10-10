@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contoh Layout dengan Elemen Semantik</title>
+</head>
+<body style="background-color: burlywood;">
+    <header style="background-color: white;">
+    <aside style="background-color: white;"></aside>
+
+    <h1>Belajar Elemen Semantik di HTML </h1>
+
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+
+    </nav>
+
+    <article style="background-color: white;">
+        <h1> Tutorial Semantik Elemen untuk pemula</h1>
+        <p>Semantik elemen adalah elemen yang memiliki makna dan tujuan.
+            Tujuannya agar kode HTML mudah dibaca dan tidak ada penyalahgunaan tag.
+            Elemen Semantik bagus untuk SEO dan juga dapat mrningkatkan accessiblity.
+        </p>
+    <!--Elemen <detail> dan <summary>
+    Tag <detail> dan <summary> merupakan tag untuk membuat
+    elemen spoiler.
+    Tag <detail> akan berisi semua detail konten, tag <summary> akan
+    menjadi tombol yang bisa diklik untuk menampikan detail isinya.-->
+    <details>
+        <summary>Lihat Spesifikasi</summary>
+        processor:intel core i9, Ram 32GB, SSD 1TB, HDD 4TB
+    </details>
+    <!--Elemen <time>
+    Tag <time> merupakan tag untuk membuat elemen waktu. Elemen
+    waktu biasanya dibutuhkan untuk menampilkan waktu.
+    Misalnya: aWaktu saat sebuah postingan dibuat, waktu saat sebuah
+    pesan dibaca, waktu keberangkatan, dan lain sebagainya.-->
+    <p>
+        Hari ini saya ada acara dari pukul <time>08:00</time> sampai pukul
+        <time>10:00</time>.
+    </p>
+    
+
+    <h2>Contoh audio diHTML</h1>
+
+    <audio controls>
+        <source src="Berkas/musik.mp3" type="audio/mpeg">
+        Browsermu tidak mendukung tag audio, upgrade donk!
+    </audio>
+
+   
+    <br>
+
+  
+  
+    <h2>Contoh Vidio sebagai gift</h2>
+    <video autoplay loop muted playsinline style="width: 50%;">
+        <source src="Berkas/vidio.mp4" type="video/mp4" />
+    </video>
+
+    <h2>Video dari Youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XgkkCIcQhY0">
+    </iframe>
+   
+    </article>
+    <aside style="background-color: white;">
+        <h4>ini adalah aside</h4>
+        <p>Nama: Rifqi Iqbal Farhansyah</p>
+        <p>NIM : A11.2020/12758</p>
+        <p>Asal: Pati,Jawa Tengah</p>
+
+    </aside>
+
+    <figure>
+        <img src="Berkas/udinus.jpg" alt="Trulli" style="width:50%">
+        <figcaption>Udinus- Semarang, Jawa Tengah.</figcaption>
+      </figure>
+
+ 
+        
+
+    <footer style="background-color: white;">
+        Copyright &copy; Rifqi Iqbal Farhansyah
+
+    </footer>
+</body>
+</html>
