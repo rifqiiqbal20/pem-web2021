@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+:root{
+    --color1 :#000D3D;
+    --color2 : #E5E5E5;
+
+    --font1 :  'Raleway', sans-serif;
+}
+
+.table1 table[type=data]{
+  margin: auto;
+}
+
+.table[type=data] tr,td{
+  font-size: 20px;
+  height: 400;
+  padding: auto;
+}
+.table1 table input:hover{
+  margin-left: 5px;
+  color: blue;
+  background-color:white;
+}
+.footer-content .content-about li a:hover{
+	margin-left: 10px;
+	color: red;
+
+}
+body{
+    background-color: whitesmoke;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+section{
+    margin-top: 25px;
+}
+.container{
+    max-width: 80%;
+    width: auto;
+}
+.navbar{
+    background-color:#000D3D;
+}
+
+.navbar .nav-wrapper{
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.navbar .nav-wrapper .logo:hover{
+ background-color: rgb(0, 0, 155);
+}
+.navbar .nav-wrapper .logo2:hover{
+  background-color: rgba(134, 143, 10, 0.822);
+ }
+
+.nav-wrapper .menu-wrapper{
+    display: flex;
+    gap: 10px;
+}
+.nav-wrapper .menu-wrapper .menu{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-wrapper .menu-wrapper .menu li a:hover{
+	margin-left: 10px;
+	color: orange;
+
+}
+.menu-wrapper .menu .menu-link{
+    font-size: 1;
+    color: var(--color2);
+    font-family: var(--font1);
+    font-weight: 100;
+}
+.menu-wrapper .menu .menu-link.active{
+    font-weight: 700;
+    color: var(--color1);
+}
+
+
+.teksgambar{
+background-image: url('gambar/ZfTVOYck5M\ 1.jpg');
+width: 63%;
+height: 258px;
+left: 254px;
+top: 15px;
+
+display: block;
+margin-left: auto;
+margin-top: 20px;
+margin-right: auto;
+align-items: center;
+
+
+}
+.teksgambar center{
+    color: #450ae7;
+    ;
+    font: var(--font1);
+    padding: 40px;
+    }
+.teksgambar  p{
+color: #dfd7d7;
+text-align: center;
+font-size: 25px;
+padding: 1px 80px 40px;
+font: var(--font1);
+}
+.pilihan .row1 h1{
+color: rgb(179, 6, 6);
+}
+
+
+.produk .produk-wrapper{
+
+  display: block;
+  margin-left: 19%;
+  margin-top: 1px;
+  margin-right: auto;
+  align-items: center;
+}
+.produk-wrapper .teks :hover{
+ background-color: rgb(163, 163, 163);
+ margin-left:5px;
+}
+.produk-wrapper .teks2 :hover{
+  margin-bottom: 5px;
+ }
+ 
+
+.produk-wrapper .row1{
+  display: flek;
+  align-items: center;
+}
+.row1 .label-produk{
+  font-size: 20px;
+  font-family: var(--font1);
+  font-weight: 700;
+  color: black;
+}
+.produk-wrapper .row2{
+  display: flek;
+  align-items: center;
+}
+.row2 .label-produk{
+  font-size: 20px;
+  font-family: var(--font1);
+  font-weight: 700;
+  color: rgb(129, 0, 0);
+}
+
+.footerbottom{
+
+  width: 100%;
+  height: 50px;
+  padding-left: 10px;
+  line-height: 50px;
+  background: #002874;
+  color: #fff;
+}
+.footer-content{
+	width: 100%;
+	height: 400px;
+	background: white;
+	position: relative;
+}
+
+.footer-content .content-about,
+.footer-content .content-social,
+.footer-content .content-pesan{
+	width: 30%;
+	height: 400px;
+	position: absolute;
+}
+.footer-content .content-about h2{
+	font-family: sans-serif;
+	color: black;
+	text-align: center;
+	font-size: 30px;
+	line-height: 100px;
+}
+.footer-content .content-about p{
+	font-style: times new roman;
+	color: black;
+	text-align: center;
+}
+.footer-content .content-about li{
+	margin-bottom: 30px;
+	margin-left: 120px;
+}
+.footer-content .content-about li a{
+	
+	text-decoration: none;
+	color: black;
+	font-style: arial;
+
+}
+.footer-content .content-about li a:hover{
+	margin-left: 10px;
+	color: red;
+
+}
+.footer-content .content-social{
+	margin-left: 500px;
+
+}
+.footer-content .content-tentangtoko{
+	margin-left: 65%;
+}
+.footer-content .content-tentangtoko h2,
+.footer-content .content-social h2{
+	color: black;
+	font-family: sans-serif;
+	font-size: 30px;
+	text-align: center;
+	line-height: 100px;
+}
+.footer-content .content-social li{
+	margin-bottom: 20px;
+	margin-left: 190px;
+}
+.footer-content .content-social li a{
+	
+	text-decoration: none;
+	color: black;
+	font-style: arial;
+
+}
+.footer-content .content-social li a h3{
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+
+.footer-content .content-social li a:hover{
+	margin-left: 10px;
+	color: orange;
+
+}
+.footer-content .content-tentangtoko p{
+	font-style: times new roman;
+	color: black;
+	text-align: center;
+}
+.footer-content .content-tentangtoko li{
+	margin-bottom: 15px;
+	margin-left: 190px;
+}
+.footer-content .content-tentangtoko li a{
+	
+	text-decoration: none;
+	color: black;
+	font-style: arial;
+
+}
+.footer-content .content-tentangtoko li a:hover{
+	margin-left: 10px;
+	color: orange;
+
+}
+.search-box{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+
+

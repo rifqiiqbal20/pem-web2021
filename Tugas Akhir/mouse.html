@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jualan Gadget</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <script src="main.js"></script>
+  <script src="dist/sweetalert2.all.min.js"></script>
+
+<header>
+  <nav class="navbar">
+      <div class="container nav-wrapper">
+          <a href="index.html" class="logo" ><img src="gambar/Ellipse 5.png"><span><img src="gambar/ifqi Store.png"></span>
+            <p style="text-align: center;">
+              <img src="gambar/Pilhan tepat membeli Gadget.png">
+          <div class="menu-wrapper">
+              <ul class="menu" style="color: white;">
+                <li class="menu-item"><a href="#" class="logo2" ><img src="gambar/Ellipse 9.png"></li>
+                  <li class="menu-item"><a href="https://id-id.facebook.com" class="menu-link"><img src="gambar/Logo Facebook Format PNG 2.png"></a></li>
+                  <li class="menu-item"><a href="https://www.instagram.com" class="menu-link"><img src="gambar/Ellipse 23.png"></a></li>
+                  <li class="menu-item"><a href="https://web.telegram.org/z/" class="menu-link"><img src="gambar/Ellipse 24.png"></a></li>
+                  
+                
+                  </script> 
+              </ul>
+          </div>
+
+  </div>
+</header>
+<center><img src="gambar/Ellipse 11.png" height="400px"></center>
+<center>
+    <font size="10px">
+    <p style="color:rgb(7, 7, 90);">Isikan Formulir Pemesanan</p>
+    </font>
+    </center>
+
+<div class="table1">
+<table name="data" type="data">
+	
+    <tr><td>Nama Lengkap</td><td>: <input type="text" name="Nama_Lengkap" size="70"></td></tr>
+    <tr><td>Alamat</td><td>: <input type="text" name="Alamat" size="70"> </td></tr>
+    <tr><td>Email</td><td>: <input type="text" name="Email" size="70" > </td></tr>
+    <tr><td>Pilih Merk Hp</td><td>: <select name="tahu">
+        <option selected="select">-=pilih=-</option>
+        <option>Iphone</option>
+        <option>Samsung</option>
+        <option>Huawei</option>
+        <option>Xiomi</option>
+    </select></td></tr>
+    <tr><td>Pembayaran</td><td>:
+    <input type="checkbox" name="Cash" value='Ya'>Cash
+    <input type="checkbox" name="Kredit" value='Ya'>Kredit
+
+    <tr><td>Saran</td><td>:</td></tr>
+    <tr><td></td><td> <textarea name="pesan" cols="68" rows="6"></textarea><br><br>
+        <input name="submit" type="submit" style="margin-left: 450px; font-size: 20px;"  value="submit" id="iya">
+        <script>
+            btn =document.getElementById('iya');
+              btn.addEventListener('click', function(){
+                Swal.fire({
+                title: 'Apakah data sudah benar?',
+                text: "Pastikan data yang disi falid!",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Benar'
+              }).then((result) => {
+                if (result.isConfirmed) {
+                  Swal.fire(
+                    'Terkirim',
+                    'Data yang dinputkan sudah masuk',
+                    'Terima Kasih'
+                  )
+                }
+              })
+            })
+            </script> 
+
+</table>	
+</div>
+<div class="garis">
+  <hr size="10px" color="#000D3D" style="margin-top: 100px;">
+</div>
+
+<footer>
+	<div class="footer-content">
+		<div class="content-about">
+			<h2>Layanan pelanggan</h2>
+      <ul>
+				<li><a href="#">Pusat Bantuan</a></li>
+				<li><a href="#">Cara Pembelian</a></li>
+				<li><a href="#">Syarat dan Ketentuan</a></li>
+			</ul>
+		</div>
+		<div class="content-social">
+			<h2>Pemilik :</h2>
+			<ul>
+				<li><img src="gambar/foto.png"></li>
+				<li><a href="Myprofil.html"><h3 style="margin-left: 40;">Rifqi Iqbal</h3></a></li>
+			</ul>
+		</div>
+		<div class="content-tentangtoko">
+			<h2>Tentang Toko</h2>
+      <ul>
+				<li><a href="#">Informasi Rifqi Store</a></li>
+				<li><a href="#">Kebijakan Informasi</a></li>
+				<li><a href="#">FAQ(Tanya Jawab)</a></li>
+        <li><a href="https://id-id.facebook.com"><img src="gambar/Logo Facebook Format PNG 2.png"</a> &nbsp;&nbsp; <a href="https://www.instagram.com"><img src="gambar/Ellipse 24.png"</a> &nbsp;&nbsp; <a href="https://web.telegram.org/z/"><img src="gambar/Ellipse 23.png"></a></li>
+			</ul>
+		</div>
+			
+		</div>
+	</div>
+</footer>
+
+<div class="footerbottom">
+      <img src="gambar/Copyright 2022.png"> &nbsp;    <span><img src="gambar/Line 3.png" alt=""></span>  &nbsp;    <img src="gambar/Ellipse 5.png" alt=""><span><img src="gambar/ifqi Store.png"></span>
+
+</div>
+<div class=tentang>
+
+</div>
+</body>
+</html>
